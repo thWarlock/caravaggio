@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #63b19b;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(109, 51, 51, 0.973);
+    /* background-image: linear-gradient(to right, ); */
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+margin: 0 30px;
+} 
+nav ul li a {
+color: rgb(255, 252, 247);
+text-decoration: none;
+font-size: 20px;
+padding: 10px;
+transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: rgb(214, 247, 176);
+    font-size: 20px;
+    transition: 0.3s;
+}
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#home {
+    /* background-color:  */
+    background-image: url(https://uploads4.wikiart.org/00164/images/caravaggio/saint-jerome-writing-caravaggio-1605-6.jpg!Large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    }
+
+   /* #barroco {
+        /* background-color:  
+        background-image: url(https://s.ebiografia.com/img/vo/ca/vocaa_a_o_de_sa_o_amteus.jpg?auto_optimize=low);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.0em;
+        }
+        
+        .biografia .text p{
+            font-size: 1.1em;
+            color: azure;
+        }
+*/
+    .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .content img{
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 40px;
+        border-radius: 10px;
+    }
+    .content .text {
+        max-width: 600px;
+        text-align: left;
+    }
+    .content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: black;
+    /* text-align: left; */
+    
+    }
+    .content .text p {
+    font-size: 1.1em;
+    color: #1a1b1b;
+    /* text-align: left; */
+    }
+    .curiosidades img{
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .biografia img{
+        width: 500px;
+        height: 600px;
+        margin-top: 30px;
+    }
+    .morte img {
+        width: 500px;
+        height: 600px;
+        margin-top: 30px;
+    }
+    #biografia {
+        background-color: rgb(101, 85, 126);
+    }
+    #barroco {
+        background-color: rgb(79, 113, 117);
+    }
+    #curiosidades {
+        background-color: rgb(57, 94, 57);
+    }
+    #morte {
+        background-color: rgb(126, 77, 62);
+    }
+    #cta-button {
+        background-color: rgb(27, 32, 32);
+    }
+    .cta-button {
+        margin-top: 30px;
+        background-color: rgba(136, 187, 187, 0.788);
+        color: black;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 4px 6px black;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    .cta-button:hover{
+        background-color: rgb(40, 63, 63);
+    }
+    .curiosidades {
+        flex-direction: column;
+        padding-top: 100px;
+        align-items: start;
+    }
+    figcaption {
+        /* font-size: 8px; */
+        width: 300px;
+    }
+    footer{
+        text-align: center;
+        padding-top: 45px ;
+        height: 100px;
+        background-color: rgb(109, 51, 51, 0.973);
+        color: azure;
+    }
+    
